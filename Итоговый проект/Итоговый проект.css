@@ -1,0 +1,133 @@
+
+body{
+    background-color:rgb(255, 255, 255);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    text-align: center;
+}
+/* img{
+    border-radius: 24px;
+    width: 1000px;
+    height: auto;
+} */
+
+.headimg{
+    width: auto;
+    height: 250px;
+    background-color: #000000;
+    border-radius: 24px;
+    border: 3px solid #797373;
+    z-index: -1;
+    background-image: url('c:\\Users\\Пользователь\\OneDrive\\Рабочий стол\\MSHP HTML\\IMG\\result_image.png');
+    background-repeat: no-repeat;
+}
+
+h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.disc{
+    text-align: center;
+    color: white;
+    list-style: none;
+    font-size: 20px;
+}
+
+li{
+    width:500px;
+    margin-left: 450px;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    transition: 0.2s;
+}
+
+a{
+    text-decoration: none;
+    color:#000000;
+}
+
+.cards{
+    width: auto;
+    height: auto;
+    background-color: #000000;
+    border-radius: 24px;
+    border: 3px solid #797373;
+    z-index: -1;
+    background-image: url('c:\\Users\\Пользователь\\OneDrive\\Рабочий стол\\MSHP HTML\\IMG\\b049a9as-960.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    
+}
+
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    margin-left:30px;
+    color: #ffffff;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.text{
+    margin-bottom: 30px;
+    width: auto;
+    height: auto;
+    
+}
+
+div{
+    background-color: #ffffff;
+    border-radius: 3px;
+    width:200px;
+    height:200px;
+    margin-bottom: 200px;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+img{
+    border-radius: 3px;
+    width:195px;
+    height:195px;
+    margin-top: 2px;
+}
+.vniz{
+    margin-top: 100px;
+}
+
+.cr{
+    display:flex;
+    justify-content: center;
+}
+
+div:hover{
+    transform: translate(0px, -10px);
+}
+li:hover{
+    background-color:#a5a0a0;
+}
+.zag{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 50px;
+}
